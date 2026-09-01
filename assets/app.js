@@ -177,6 +177,10 @@
         : 'Módulo marcado como pendiente');
     });
     document.body.appendChild(completeBtn);
+    // El botón es "position: fixed" en la esquina inferior derecha, así que
+    // puede tapar el enlace "Siguiente" del pie de la lección al hacer scroll
+    // hasta el final. Se añade holgura extra para que nunca se solapen.
+    document.body.classList.add('da-has-floating-complete');
     onRefresh(function syncCompleteBtn() {
       var done = isDone(CURRENT);
       completeBtn.classList.toggle('da-complete--done', done);

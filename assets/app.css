@@ -128,6 +128,11 @@ header.fixed { justify-content: flex-start !important; }
 .da-complete .material-symbols-outlined { font-size: 20px; }
 .da-complete--done { background: var(--da-teal); color: var(--da-on-teal); }
 
+/* El botón flotante es "position: fixed" sobre la esquina inferior derecha,
+   así que sin este margen puede quedar encima del enlace "Siguiente" del
+   pie de la lección al hacer scroll hasta el final, bloqueando el clic. */
+.da-has-floating-complete main { padding-bottom: 96px; }
+
 /* ---------- Buscador ---------- */
 .da-search-results {
   position: absolute;
