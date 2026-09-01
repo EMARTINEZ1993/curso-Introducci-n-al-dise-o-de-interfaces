@@ -1,0 +1,192 @@
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Introducción al diseño de interfaces</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;overflow-y:auto;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"tertiary-fixed":"#62fae3","secondary":"#5a5f62","inverse-surface":"#213145","surface-bright":"#f8f9ff","on-surface":"#0b1c30","on-secondary-container":"#5e6367","surface-dim":"#cbdbf5","on-secondary":"#ffffff","tertiary-fixed-dim":"#3cddc7","tertiary-container":"#00433b","inverse-primary":"#bac6ec","inverse-on-surface":"#eaf1ff","error-container":"#ffdad6","on-error-container":"#93000a","primary-fixed":"#dae2ff","on-background":"#0b1c30","on-primary-container":"#98a4c9","surface-container":"#e5eeff","secondary-container":"#dce0e4","surface-variant":"#d3e4fe","on-primary":"#ffffff","surface-container-low":"#eff4ff","secondary-fixed-dim":"#c3c7cb","tertiary":"#002b25","on-tertiary-container":"#00b9a6","outline":"#75777e","on-primary-fixed-variant":"#3a4666","surface-container-high":"#dce9ff","on-tertiary":"#ffffff","secondary-fixed":"#dfe3e7","primary":"#182442","on-secondary-fixed":"#171c1f","background":"#f8f9ff","error":"#ba1a1a","surface-tint":"#525e7f","on-primary-fixed":"#0d1a38","outline-variant":"#c6c6ce","on-error":"#ffffff","primary-fixed-dim":"#bac6ec","on-surface-variant":"#45464e","on-secondary-fixed-variant":"#43474b","surface-container-lowest":"#ffffff","on-tertiary-fixed":"#00201c","on-tertiary-fixed-variant":"#005047","surface":"#f8f9ff","surface-container-highest":"#d3e4fe","primary-container":"#2e3a59"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"20px","container-max":"1280px","stack-md":"16px","margin-desktop":"40px","unit":"8px","gutter":"24px","stack-xl":"64px","stack-lg":"32px","stack-sm":"8px"},"fontFamily":{"headline-sm":["Inter"],"headline-lg":["Inter"],"headline-lg-mobile":["Inter"],"body-lg":["Inter"],"headline-md":["Inter"],"headline-xl":["Inter"],"body-md":["Inter"],"body-sm":["Inter"],"label-md":["Inter"],"label-sm":["Inter"]},"fontSize":{"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"headline-xl":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"14px","fontWeight":"500"}]}}}}</script><link rel="stylesheet" href="assets/app.css"/></head><body class="bg-surface font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-primary z-50 flex flex-col shadow-xl"><div class="p-gutter flex items-center gap-3 mb-stack-md"><a href="index.html" class="da-brand"><span class="da-brand__mark">E</span><span class="da-brand__text"><b>Eli</b>Diseng</span></a></div><div class="px-gutter mb-stack-sm"><span class="font-label-sm text-on-primary-container uppercase tracking-widest opacity-60">Plan de Estudios</span></div><nav class="flex-1 overflow-y-auto px-4 pb-8 flex flex-col gap-1" data-active-classes="bg-primary-container text-on-primary-container"><a aria-current="page" class="flex items-center px-4 py-3 rounded-lg transition-all group bg-primary-container text-on-primary-container" data-path="curriculum-overview" href="index.html"><span class="material-symbols-outlined mr-3">school</span>Inicio</a><div class="my-2 border-t border-on-primary/10 mx-4"></div><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="ui-vs-ux" href="leccion_1_ui_vs_ux.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">difference</span>UI y UX</div><div class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="design-principles" href="leccion_2_principios_de_diseno.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">architecture</span>Principios de diseño</div><div class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="visual-hierarchy" href="leccion_3_jerarquia_visual.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">layers</span>Jerarquía visual</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="color-psychology" href="leccion_4_psicologia_del_color.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">palette</span>Psicología del color</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="typography-systems" href="leccion_6_sistemas_tipograficos.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">match_case</span>Tipografía</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="wireframing" href="leccion_9_wireframing.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">draw</span>Wireframing</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="accessibility" href="leccion_12_accesibilidad.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">accessibility_new</span>Accesibilidad</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a></nav></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(46,58,89,0.08)] z-40 flex items-center justify-between px-gutter"><div class="flex-1 max-w-xl"><div class="relative flex items-center bg-surface-container-low rounded-full px-4 py-1.5 border border-outline-variant/30 focus-within:border-primary-container transition-all"><span class="material-symbols-outlined text-on-surface-variant mr-2">search</span><input class="bg-transparent border-none outline-none text-body-sm w-full text-on-surface placeholder:text-on-surface-variant/60" placeholder="Buscar lecciones, recursos, herramientas..." type="text"/></div></div></header><main class="relative pt-16 min-h-screen bg-surface-bright"><div class="flex flex-col w-full h-full relative font-body-md bg-surface text-on-surface">
+<!-- Decorative Ambient Background -->
+<div aria-hidden="true" class="absolute inset-0 pointer-events-none overflow-hidden">
+<svg class="absolute top-0 right-0 transform translate-x-1/3 -translate-y-1/3 w-[800px] h-[800px] opacity-30 text-surface-variant" fill="currentColor" viewbox="0 0 100 100">
+<path d="M50,0 Q100,0 100,50 Q100,100 50,100 Q0,100 0,50 Q0,0 50,0 Z"></path>
+</svg>
+<svg class="absolute bottom-0 left-0 transform -translate-x-1/4 translate-y-1/3 w-[600px] h-[600px] opacity-20 text-primary-fixed" fill="currentColor" viewbox="0 0 100 100">
+<circle cx="50" cy="50" r="50"></circle>
+</svg>
+</div>
+<div class="relative z-10 p-margin-desktop space-y-stack-xl max-w-container-max mx-auto w-full">
+<!-- Welcome & High-level Progress -->
+<section class="grid grid-cols-12 gap-gutter">
+<!-- Greeting Banner -->
+<div class="col-span-12 lg:col-span-8 bg-primary text-on-primary rounded-xl p-stack-lg shadow-xl relative overflow-hidden flex flex-col justify-between min-h-[240px] isolate">
+<div class="da-banner__fx">
+<span class="da-banner__orb da-banner__orb--a"></span>
+<span class="da-banner__orb da-banner__orb--b"></span>
+<svg class="da-banner__grid" fill="none" stroke="currentColor" stroke-width="0.4" viewbox="0 0 100 100">
+<polygon points="50,3 91,26 91,74 50,97 9,74 9,26"></polygon>
+<circle cx="50" cy="50" r="46"></circle>
+</svg>
+<span class="da-banner__sheen"></span>
+</div>
+<div class="relative z-10">
+<h1 class="font-headline-xl text-headline-xl text-on-primary tracking-tight">
+                        Introducción al diseño de interfaces
+                    </h1>
+<p class="font-body-lg text-on-primary-container mt-stack-sm max-w-lg opacity-80">
+                        7 lecciones cortas para entender cómo se piensa una interfaz antes de programarla. Sin ejercicios ni exámenes: solo los conceptos, explicados con ejemplos.
+                    </p>
+</div>
+<div class="mt-stack-lg flex items-center justify-between relative z-10">
+<a href="leccion_1_ui_vs_ux.html" class="bg-tertiary-fixed text-on-tertiary-fixed font-label-md px-6 py-3 rounded-full hover:bg-tertiary-fixed-dim transition-colors shadow-sm flex items-center gap-2 group">
+                        Continuar Aprendiendo
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<span class="font-label-sm text-on-primary-container uppercase tracking-widest opacity-60">
+                        Frontend · Concepto
+                    </span>
+</div>
+</div>
+<!-- Stats/Progress Panel -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container-lowest rounded-xl p-stack-lg shadow-md flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-stack-sm">
+<h2 class="font-headline-sm text-on-surface">Progreso del Curso</h2>
+<span class="material-symbols-outlined text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+</div>
+<div class="mt-stack-md" style="white-space:nowrap;line-height:1">
+<span class="text-primary" id="da-progress-count" style="font-size:42px;font-weight:800;letter-spacing:-0.02em">0</span>
+<span class="text-on-surface-variant" style="font-size:20px;font-weight:600">/ 12</span>
+</div>
+<p class="font-label-sm text-on-surface-variant uppercase tracking-wide mt-2">Módulos completados</p>
+</div>
+<div class="mt-stack-lg">
+<div class="flex justify-between mb-2">
+<span class="font-label-sm text-on-surface-variant">0% Completado</span>
+<span class="font-label-sm text-on-surface-variant">100% Restante</span>
+</div>
+<!-- Progress Bar Track -->
+<div class="h-3 w-full bg-surface-container rounded-full overflow-hidden">
+<!-- Progress Bar Fill (0% currently) -->
+<div class="h-full bg-tertiary-fixed w-[5%] rounded-full shadow-[0_0_8px_rgba(98,250,227,0.5)]"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Area: Next Lesson & Course Map -->
+<section class="grid grid-cols-12 gap-gutter">
+<!-- Left Column: Up Next & Activity -->
+<div class="col-span-12 lg:col-span-5 space-y-stack-lg">
+<!-- Tu Próxima Lección -->
+<div class="flex flex-col gap-stack-sm">
+<h3 class="font-label-md text-on-surface-variant uppercase tracking-widest flex items-center gap-2">
+<span class="w-2 h-2 bg-tertiary-fixed rounded-full inline-block"></span>
+                        Tu Próxima Lección
+                    </h3>
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer relative">
+<!-- Subtle top highlight -->
+<div class="absolute top-0 left-0 right-0 h-1 bg-tertiary-fixed"></div>
+<div class="p-stack-md">
+<div class="h-48 w-full rounded-lg overflow-hidden mb-stack-md relative" data-alt="A clean, minimalist 3D rendering of basic UI components like buttons, wireframes, and layout grids floating on a soft indigo background. Studio lighting, soft shadows, geometric shapes. Vibrant teal accents. High resolution, modern tech educational style." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1VHBMxzbmsuubMwQU2GPJOS96tWOFfUbyO0xQTZzHb19ZBQi-X6Qd_l8W2OZMmtYekTI9oVPABM2QQkXCwUDtV-D20aW7z9opgz5hmWg5bbx4-mrpaLL756PyQ5Qcrp6KdUbor5JmqvNaWKI2bTDaEOAunLMmmso5NdJxO2HW6Yn8r6nZZE7_diQthsbyJrwNcBaL8slfRTQXm8D0uFIc-Ki0HgyAGM09UTNW0wE6ztOBZhmGPuU6mA')">
+<!-- Play Button Overlay -->
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors flex items-center justify-center">
+<div class="w-16 h-16 bg-surface/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<span class="bg-primary-container text-on-primary-container px-2 py-1 rounded font-label-sm uppercase tracking-wide">Módulo 1</span>
+<span class="font-label-sm text-on-surface-variant flex items-center"><span class="material-symbols-outlined text-sm mr-1">schedule</span> 45 min</span>
+</div>
+<h4 class="font-headline-md text-on-surface group-hover:text-primary transition-colors">Conceptos fundamentales: UI y UX</h4>
+<p class="font-body-md text-on-surface-variant mt-2 line-clamp-2">Comprende la diferencia esencial entre la Interfaz de Usuario y la Experiencia de Usuario, y cómo ambas disciplinas colaboran para crear productos digitales excepcionales.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Course Map (Bento Grid Style) -->
+<div class="col-span-12 lg:col-span-7 flex flex-col gap-stack-sm">
+<h3 class="font-label-md text-on-surface-variant uppercase tracking-widest flex justify-between items-center">
+<span>Mapa del Curso</span>
+<button class="text-tertiary-fixed hover:text-tertiary-fixed-dim transition-colors flex items-center gap-1 font-label-sm lowercase">
+                        ver lista <span class="material-symbols-outlined text-sm">list</span>
+</button>
+</h3>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+<!-- Module 1: Current -->
+<div class="bg-primary text-on-primary rounded-xl p-4 shadow-md flex flex-col h-40 justify-between group cursor-pointer relative overflow-hidden transition-transform hover:-translate-y-1">
+<div class="absolute -right-4 -top-4 w-24 h-24 bg-tertiary-fixed/20 rounded-full blur-xl group-hover:bg-tertiary-fixed/30 transition-colors"></div>
+<div class="flex justify-between items-start z-10">
+<span class="material-symbols-outlined text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+<span class="font-label-sm text-on-primary-container bg-surface/10 px-2 py-0.5 rounded backdrop-blur-sm">En curso</span>
+</div>
+<div class="z-10">
+<span class="font-label-sm text-tertiary-fixed-dim mb-1 block">Mód 01</span>
+<h4 class="font-label-md text-on-primary leading-tight group-hover:text-tertiary-fixed transition-colors">Conceptos UI/UX</h4>
+</div>
+</div>
+<!-- Module 2: Locked -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-4 shadow-sm flex flex-col h-40 justify-between opacity-70 hover:opacity-100 transition-opacity cursor-not-allowed">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-on-surface-variant">lock</span>
+</div>
+<div>
+<span class="font-label-sm text-on-surface-variant mb-1 block">Mód 02</span>
+<h4 class="font-label-md text-on-surface leading-tight">Principios de Diseño</h4>
+</div>
+</div>
+<!-- Module 3: Locked -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-4 shadow-sm flex flex-col h-40 justify-between opacity-70 hover:opacity-100 transition-opacity cursor-not-allowed">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-on-surface-variant">lock</span>
+</div>
+<div>
+<span class="font-label-sm text-on-surface-variant mb-1 block">Mód 03</span>
+<h4 class="font-label-md text-on-surface leading-tight">Jerarquía Visual</h4>
+</div>
+</div>
+<!-- Module 4: Locked -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-4 shadow-sm flex flex-col h-40 justify-between opacity-70 hover:opacity-100 transition-opacity cursor-not-allowed">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-on-surface-variant">lock</span>
+</div>
+<div>
+<span class="font-label-sm text-on-surface-variant mb-1 block">Mód 04</span>
+<h4 class="font-label-md text-on-surface leading-tight">Psicología del Color</h4>
+</div>
+</div>
+<!-- Module 5: Locked -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-4 shadow-sm flex flex-col h-40 justify-between opacity-70 hover:opacity-100 transition-opacity cursor-not-allowed">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-on-surface-variant">lock</span>
+</div>
+<div>
+<span class="font-label-sm text-on-surface-variant mb-1 block">Mód 05</span>
+<h4 class="font-label-md text-on-surface leading-tight">Sistemas Tipográficos</h4>
+</div>
+</div>
+<!-- Module 6: Locked -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-4 shadow-sm flex flex-col h-40 justify-between opacity-70 hover:opacity-100 transition-opacity cursor-not-allowed">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-on-surface-variant">lock</span>
+</div>
+<div>
+<span class="font-label-sm text-on-surface-variant mb-1 block">Mód 06</span>
+<h4 class="font-label-md text-on-surface leading-tight">Wireframing</h4>
+</div>
+</div>
+<!-- Module 7-12 (Represented as a list to save space or just a summary card in this bento) -->
+<div class="col-span-2 sm:col-span-3 bg-surface-container-low rounded-xl p-4 shadow-inner flex items-center justify-between mt-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded bg-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-on-surface-variant">more_horiz</span>
+</div>
+<div>
+<h4 class="font-label-md text-on-surface">1 lección más</h4>
+<p class="font-label-sm text-on-surface-variant">Accesibilidad</p>
+</div>
+</div>
+<button class="text-primary hover:bg-primary-container/20 p-2 rounded-full transition-colors">
+<span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div></main></div><script src="assets/app.js" defer></script></body></html>

@@ -1,0 +1,307 @@
+﻿<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;overflow-y:auto;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"tertiary-fixed":"#62fae3","secondary":"#5a5f62","inverse-surface":"#213145","surface-bright":"#f8f9ff","on-surface":"#0b1c30","on-secondary-container":"#5e6367","surface-dim":"#cbdbf5","on-secondary":"#ffffff","tertiary-fixed-dim":"#3cddc7","tertiary-container":"#00433b","inverse-primary":"#bac6ec","inverse-on-surface":"#eaf1ff","error-container":"#ffdad6","on-error-container":"#93000a","primary-fixed":"#dae2ff","on-background":"#0b1c30","on-primary-container":"#98a4c9","surface-container":"#e5eeff","secondary-container":"#dce0e4","surface-variant":"#d3e4fe","on-primary":"#ffffff","surface-container-low":"#eff4ff","secondary-fixed-dim":"#c3c7cb","tertiary":"#002b25","on-tertiary-container":"#00b9a6","outline":"#75777e","on-primary-fixed-variant":"#3a4666","surface-container-high":"#dce9ff","on-tertiary":"#ffffff","secondary-fixed":"#dfe3e7","primary":"#182442","on-secondary-fixed":"#171c1f","background":"#f8f9ff","error":"#ba1a1a","surface-tint":"#525e7f","on-primary-fixed":"#0d1a38","outline-variant":"#c6c6ce","on-error":"#ffffff","primary-fixed-dim":"#bac6ec","on-surface-variant":"#45464e","on-secondary-fixed-variant":"#43474b","surface-container-lowest":"#ffffff","on-tertiary-fixed":"#00201c","on-tertiary-fixed-variant":"#005047","surface":"#f8f9ff","surface-container-highest":"#d3e4fe","primary-container":"#2e3a59"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"20px","container-max":"1280px","stack-md":"16px","margin-desktop":"40px","unit":"8px","gutter":"24px","stack-xl":"64px","stack-lg":"32px","stack-sm":"8px"},"fontFamily":{"headline-sm":["Inter"],"headline-lg":["Inter"],"headline-lg-mobile":["Inter"],"body-lg":["Inter"],"headline-md":["Inter"],"headline-xl":["Inter"],"body-md":["Inter"],"body-sm":["Inter"],"label-md":["Inter"],"label-sm":["Inter"]},"fontSize":{"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"headline-xl":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"14px","fontWeight":"500"}]}}}}</script><link rel="stylesheet" href="assets/app.css"/><title>Lección 12 · Accesibilidad</title></head><body class="bg-surface font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-primary z-50 flex flex-col shadow-xl"><div class="p-gutter flex items-center gap-3 mb-stack-md"><a href="index.html" class="da-brand"><span class="da-brand__mark">E</span><span class="da-brand__text"><b>Eli</b>Diseng</span></a></div><div class="px-gutter mb-stack-sm"><span class="font-label-sm text-on-primary-container uppercase tracking-widest opacity-60">Plan de Estudios</span></div><nav class="flex-1 overflow-y-auto px-4 pb-8 flex flex-col gap-1" data-active-classes="bg-primary-container text-on-primary-container"><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all group" data-path="curriculum-overview" href="index.html"><span class="material-symbols-outlined mr-3">school</span>Inicio</a><div class="my-2 border-t border-on-primary/10 mx-4"></div><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="ui-vs-ux" href="leccion_1_ui_vs_ux.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">difference</span>UI y UX</div><div class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="design-principles" href="leccion_2_principios_de_diseno.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">architecture</span>Principios de diseño</div><div class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="visual-hierarchy" href="leccion_3_jerarquia_visual.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">layers</span>Jerarquía visual</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="color-psychology" href="leccion_4_psicologia_del_color.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">palette</span>Psicología del color</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="typography-systems" href="leccion_6_sistemas_tipograficos.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">match_case</span>Tipografía</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="wireframing" href="leccion_9_wireframing.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">draw</span>Wireframing</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a aria-current="page" class="flex items-center px-4 py-3 rounded-lg transition-all justify-between bg-primary-container text-on-primary-container" data-path="accessibility" href="leccion_12_accesibilidad.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">accessibility_new</span>Accesibilidad</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a></nav></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(46,58,89,0.08)] z-40 flex items-center justify-between px-gutter"><div class="flex-1 max-w-xl"><div class="relative flex items-center bg-surface-container-low rounded-full px-4 py-1.5 border border-outline-variant/30 focus-within:border-primary-container transition-all"><span class="material-symbols-outlined text-on-surface-variant mr-2">search</span><input class="bg-transparent border-none outline-none text-body-sm w-full text-on-surface placeholder:text-on-surface-variant/60" placeholder="Buscar lecciones, recursos, herramientas..." type="text"/></div></div></header><main class="relative pt-16 min-h-screen bg-surface-bright"><div class="flex flex-col w-full">
+<div class="px-gutter pt-stack-xl pb-stack-lg max-w-container-max mx-auto w-full relative">
+<div class="absolute top-0 right-0 w-96 h-96 bg-tertiary-fixed/10 rounded-full blur-3xl -z-10 -mr-stack-xl mt-stack-xl mix-blend-multiply"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-primary-container/10 rounded-full blur-3xl -z-10 -ml-stack-xl mb-stack-xl mix-blend-multiply"></div>
+<header class="da-banner">
+<div class="da-banner__fx">
+<span class="da-banner__orb da-banner__orb--a"></span>
+<span class="da-banner__orb da-banner__orb--b"></span>
+<svg class="da-banner__grid" fill="none" stroke="currentColor" stroke-width="0.4" viewbox="0 0 100 100">
+<polygon points="50,3 91,26 91,74 50,97 9,74 9,26"></polygon>
+<circle cx="50" cy="50" r="46"></circle>
+</svg>
+<span class="da-banner__sheen"></span>
+</div>
+<div class="da-banner__content">
+<span class="da-banner__badge"><span class="material-symbols-outlined">accessibility_new</span>Lección 12</span>
+<h1>Accesibilidad: que funcione para todo el mundo</h1>
+<p class="da-banner__intro">Hay personas que no ven bien los colores, que navegan solo con el teclado o que usan un lector de pantalla. Una interfaz accesible sigue funcionando para ellas. Y casi todo se consigue escribiendo bien el HTML desde el principio.</p>
+<div class="da-banner__meta">
+<span><span class="material-symbols-outlined">schedule</span>~8 min de lectura</span>
+<span><span class="material-symbols-outlined">school</span>Nivel introductorio</span>
+<span><span class="material-symbols-outlined">flag</span>Última lección del curso</span>
+</div>
+</div>
+<div class="da-banner__aside">
+<svg viewbox="0 0 100 100">
+<circle class="da-spin-a" cx="50" cy="50" r="36" fill="none" stroke="#62fae3" stroke-width="1.6"></circle>
+<circle class="da-anim-pulse" cx="50" cy="34" r="7" fill="#62fae3"></circle>
+<path d="M50 41 V66 M50 48 L34 44 M50 48 L66 44 M50 66 L40 82 M50 66 L60 82" stroke="#62fae3" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"></path>
+</svg>
+</div>
+</header>
+<!-- Bento Grid Curriculum -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-stack-xl">
+<!-- WCAG Core Principles -->
+<div class="col-span-1 md:col-span-8 bg-surface-container-lowest rounded-xl shadow-md p-stack-lg relative overflow-hidden group hover:shadow-lg transition-shadow duration-300 ">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-container/20 rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="flex items-start justify-between relative z-10 mb-stack-md">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container">
+<span class="material-symbols-outlined">rule</span>
+</div>
+<div class="status-indicator opacity-0 transition-opacity w-8 h-8 rounded-full bg-tertiary-container text-on-tertiary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<h2 class="font-headline-md text-on-surface mb-stack-sm relative z-10">Pautas WCAG (POUR)</h2>
+<p class="font-body-md text-on-surface-variant mb-stack-lg relative z-10 max-w-xl">
+          Las WCAG son la guía estándar de accesibilidad web. Se resumen en cuatro ideas (POUR): el contenido debe poder <strong>percibirse</strong>, <strong>operarse</strong>, <strong>entenderse</strong> y ser <strong>robusto</strong> (funcionar en distintos navegadores y ayudas técnicas).
+        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-md relative z-10">
+<div class="bg-surface p-stack-md rounded-lg">
+<h3 class="font-label-md text-on-surface mb-unit">Perceptible</h3>
+<p class="font-body-sm text-on-surface-variant">La información y los componentes de la interfaz de usuario deben presentarse a los usuarios en formas que puedan percibir (por ejemplo, alternativas de texto para imágenes).</p>
+</div>
+<div class="bg-surface p-stack-md rounded-lg">
+<h3 class="font-label-md text-on-surface mb-unit">Operable</h3>
+<p class="font-body-sm text-on-surface-variant">Los componentes de la interfaz de usuario y la navegación deben ser operables (por ejemplo, accesibilidad del teclado, tiempo suficiente para leer).</p>
+</div>
+<div class="bg-surface p-stack-md rounded-lg">
+<h3 class="font-label-md text-on-surface mb-unit">Comprensible</h3>
+<p class="font-body-sm text-on-surface-variant">La información y el funcionamiento de la interfaz de usuario deben ser comprensibles (por ejemplo, lenguaje claro, comportamiento predecible).</p>
+</div>
+<div class="bg-surface p-stack-md rounded-lg">
+<h3 class="font-label-md text-on-surface mb-unit">Robusto</h3>
+<p class="font-body-sm text-on-surface-variant">El contenido debe ser lo suficientemente robusto como para que pueda ser interpretado de manera confiable por una amplia variedad de agentes de usuario, incluida la tecnología de asistencia.</p>
+</div>
+</div>
+</div>
+<!-- Screen Reader Support -->
+<div class="col-span-1 md:col-span-4 bg-primary text-on-primary rounded-xl shadow-md p-stack-lg relative overflow-hidden group hover:shadow-lg transition-shadow duration-300 ">
+<div class="absolute bottom-0 right-0 opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[180px] -mr-8 -mb-8 transform rotate-12">record_voice_over</span>
+</div>
+<div class="flex items-start justify-between relative z-10 mb-stack-md">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined">hearing</span>
+</div>
+<div class="status-indicator opacity-0 transition-opacity w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<h2 class="font-headline-md mb-stack-sm relative z-10">Contexto del Lector de Pantalla</h2>
+<p class="font-body-md text-on-primary/80 mb-stack-lg relative z-10">
+          Un lector de pantalla lee la página en voz alta a partir del HTML, no de cómo se ve. Si usas la etiqueta correcta para cada cosa (<code>&lt;button&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;h1&gt;</code>…), esa persona entiende la página sin verla.
+        </p>
+<ul class="space-y-stack-sm relative z-10 font-body-sm text-on-primary/90">
+<li class="flex items-start gap-unit">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed shrink-0">check</span>
+<span>Estructura semántica (h1-h6)</span>
+</li>
+<li class="flex items-start gap-unit">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed shrink-0">check</span>
+<span>Etiquetas y roles ARIA</span>
+</li>
+<li class="flex items-start gap-unit">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed shrink-0">check</span>
+<span>Gestión de enfoque</span>
+</li>
+<li class="flex items-start gap-unit">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed shrink-0">check</span>
+<span>Texto alternativo significativo</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Contrast Section & Tool Mockup -->
+<div class="bg-surface-container-highest rounded-xl p-stack-md md:p-stack-lg shadow-sm mb-stack-xl relative z-10" id="contrast-section">
+<div class="flex flex-col lg:flex-row gap-stack-lg items-center">
+<div class="flex-1 w-full">
+<div class="flex items-center gap-unit mb-stack-sm">
+<span class="material-symbols-outlined text-primary">contrast</span>
+<h2 class="font-headline-md text-on-surface">Contraste de Color (AA / AAA)</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-stack-md">
+               WCAG requiere un contraste suficiente entre el texto y el fondo. 
+               <strong>El nivel AA</strong> requiere una relación de contraste de al menos 4.5:1 para texto normal y 3:1 para texto grande. 
+               <strong>El nivel AAA</strong> requiere 7:1 para texto normal y 4.5:1 para texto grande.
+            </p>
+<!-- Contrast Tool Mockup -->
+<div class="bg-surface-container-lowest rounded-lg p-stack-md shadow-md">
+<div class="flex items-center justify-between mb-stack-md pb-stack-sm border-b border-surface-variant">
+<div class="font-label-md text-on-surface">Comprobador de Contraste en Vivo</div>
+<div class="px-3 py-1 bg-tertiary-container text-on-tertiary-container rounded-full font-label-sm flex items-center gap-1 transition-colors" id="contrast-badge">
+<span class="material-symbols-outlined text-[16px]">verified</span> Pasa AA
+                  </div>
+</div>
+<div class="grid grid-cols-2 gap-stack-md mb-stack-md">
+<div>
+<label class="font-label-sm text-on-surface-variant block mb-1">Color del Texto (Hex)</label>
+<div class="relative">
+<div class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-[#5a5f62] shadow-sm border border-outline-variant" id="text-color-preview"></div>
+<input class="w-full pl-9 pr-3 py-2 bg-surface rounded text-body-sm font-mono border-none outline-none focus:ring-2 focus:ring-primary-container transition-shadow" id="text-color-input" type="text" value="#5a5f62"/>
+</div>
+</div>
+<div>
+<label class="font-label-sm text-on-surface-variant block mb-1">Fondo (Hex)</label>
+<div class="relative">
+<div class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-[#f8f9ff] shadow-sm border border-outline-variant" id="bg-color-preview"></div>
+<input class="w-full pl-9 pr-3 py-2 bg-surface rounded text-body-sm font-mono border-none outline-none focus:ring-2 focus:ring-primary-container transition-shadow" id="bg-color-input" type="text" value="#f8f9ff"/>
+</div>
+</div>
+</div>
+<div class="p-stack-md rounded-lg flex items-center justify-center transition-colors duration-300" id="preview-area" style="background-color: #f8f9ff;">
+<span class="font-headline-sm transition-colors duration-300" id="preview-text" style="color: #5a5f62;">
+                     Texto de Muestra para Comprobar el Contraste
+                  </span>
+</div>
+<div class="mt-stack-sm text-center">
+<span class="font-label-md text-on-surface-variant">Relación: <span class="font-mono text-primary" id="ratio-display">5.12:1</span></span>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-[400px] shrink-0">
+<div class="h-[400px] w-full rounded-xl shadow-md overflow-hidden relative">
+<!-- Decorative Image related to vision/contrast -->
+<div class="bg-cover bg-center w-full h-full mix-blend-luminosity opacity-80" data-alt="A macro photography shot of a human eye with vibrant iris patterns, overlaid with a subtle geometric grid and graphic design contrast measurement lines in teal and slate blue, dramatic lighting, modern corporate aesthetic" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCj2v9V5qhjl3Mh1dTvurzlEd_tDt4llk9Hda0ZzFGYV9TlvLq12BuHq4YEiBtUair-PYTJ7IawKVkXTAW7T9g7FoNsFXlk2T9XlWVtc40VaDPrmwipCs6t8JnZhrTSiYU8RysfbcnZqG5nc67v9JZJZ1Gb6nF1oFNu1XZuN4VlsHTkPim8Ukc0FWgwfprL45FvbeQVNgidBRXhoN0gbnXTuIemdcD499hMpN4Kv4XsZELAv5sE2ZNuPA')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/90 via-primary-container/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-stack-md w-full">
+<h3 class="font-headline-sm text-on-primary-container mb-unit">El color no lo es todo</h3>
+<p class="font-body-sm text-on-primary-container/80">Nunca use el color como el único medio para transmitir información, indicar una acción, solicitar una respuesta o distinguir un elemento visual.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Practice Section -->
+<div class="mb-stack-xl">
+<div class="flex items-center gap-unit mb-stack-md">
+<span class="material-symbols-outlined text-tertiary-fixed-dim">engineering</span>
+<h2 class="font-headline-md text-on-surface">Comparación: un formulario inaccesible y su versión accesible</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Bad Example -->
+<div class="bg-surface-container-lowest rounded-xl p-stack-md shadow-sm opacity-70">
+<div class="flex justify-between items-center mb-stack-md">
+<h3 class="font-label-md text-error flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">cancel</span> Inaccesible</h3>
+</div>
+<div class="space-y-stack-md">
+<div>
+<!-- Low contrast label -->
+<div class="text-[12px] text-[#b3b3b3] mb-1">correo electrónico</div>
+<!-- Missing focus styles, thin border -->
+<div class="w-full p-2 border border-[#eaeaea] bg-white text-[#999]">usuario@ejemplo</div>
+</div>
+<div>
+<div class="text-[12px] text-[#b3b3b3] mb-1">contraseña</div>
+<div class="w-full p-2 border border-[#ff0000] bg-[#fff0f0] text-[#999] mb-1">••••••••</div>
+<!-- Color only error -->
+<div class="text-[11px] text-[#ff0000]">error</div>
+</div>
+<!-- Low contrast button -->
+<div class="w-full py-2 bg-[#e0e0e0] text-[#999] text-center text-[14px]">Enviar</div>
+</div>
+</div>
+<!-- Good Example (Interactive) -->
+<div class="bg-surface-container-lowest rounded-xl p-stack-md shadow-md relative group hover:-translate-y-1 transition-transform duration-300">
+<div class="flex justify-between items-center mb-stack-md">
+<h3 class="font-label-md text-tertiary-container flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">check_circle</span> Accesible (Arreglado)</h3>
+<button class="text-primary hover:bg-primary-container/20 p-2 rounded-full transition-colors flex items-center justify-center tooltip-trigger" onclick="alert('En una aplicación real, esto mostraría la diferencia de código.')">
+<span class="material-symbols-outlined text-[20px]">code</span>
+</button>
+</div>
+<div class="space-y-stack-md">
+<div>
+<label class="font-label-sm text-on-surface-variant block mb-1" for="acc-email">Dirección de Correo Electrónico</label>
+<input class="w-full p-2 bg-surface border border-outline-variant rounded font-body-sm text-on-surface focus:ring-2 focus:ring-primary-container outline-none focus:border-primary transition-all" id="acc-email" type="email" value="usuario@ejemplo.com"/>
+</div>
+<div>
+<label class="font-label-sm text-on-surface-variant block mb-1" for="acc-password">Contraseña</label>
+<input aria-describedby="pwd-error" aria-invalid="true" class="w-full p-2 bg-error-container/20 border border-error rounded font-body-sm text-on-surface focus:ring-2 focus:ring-error outline-none transition-all mb-1" id="acc-password" type="password" value="contraseña"/>
+<!-- Clear error message with icon -->
+<div class="font-label-sm text-error flex items-center gap-1 mt-1" id="pwd-error">
+<span class="material-symbols-outlined text-[16px]">error</span> La contraseña debe tener al menos 8 caracteres.
+                  </div>
+</div>
+<button class="w-full py-2 bg-tertiary-fixed text-on-tertiary-fixed font-label-md rounded shadow-sm hover:shadow-md hover:bg-tertiary-fixed-dim transition-all focus:ring-4 focus:ring-tertiary-fixed/40 outline-none">
+                  Crear Cuenta
+               </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-stack-xl flex flex-col sm:flex-row items-center justify-between gap-stack-md border-t border-outline-variant/30 pt-stack-lg">
+<a class="flex items-center gap-2 font-label-md text-on-surface-variant hover:text-primary transition-colors" href="leccion_9_wireframing.html">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>Anterior: Wireframing
+</a>
+<a class="flex items-center gap-2 bg-primary text-on-primary px-6 py-3 rounded-lg hover:bg-inverse-surface transition-colors shadow-sm font-label-md" href="index.html">
+<span class="material-symbols-outlined text-[20px]">home</span>Has llegado al final — volver al inicio
+</a>
+</div>
+</div>
+<script>
+  // Simple contrast calculation logic for the mockup
+  function getLuminance(hex) {
+      let r = parseInt(hex.slice(1, 3), 16) / 255;
+      let g = parseInt(hex.slice(3, 5), 16) / 255;
+      let b = parseInt(hex.slice(5, 7), 16) / 255;
+      
+      const a = [r, g, b].map(function (v) {
+          return v <= 0.03928
+              ? v / 12.92
+              : Math.pow((v + 0.055) / 1.055, 2.4);
+      });
+      return a[0] * 0.2126 + a[1] * 0.7152 + a[2] * 0.0722;
+  }
+
+  function getContrastRatio(hex1, hex2) {
+      const lum1 = getLuminance(hex1);
+      const lum2 = getLuminance(hex2);
+      const brightest = Math.max(lum1, lum2);
+      const darkest = Math.min(lum1, lum2);
+      return (brightest + 0.05) / (darkest + 0.05);
+  }
+
+  function isValidHex(hex) {
+      return /^#([0-9A-F]{3}){1,2}$/i.test(hex);
+  }
+
+  const textInput = document.getElementById('text-color-input');
+  const bgInput = document.getElementById('bg-color-input');
+  const textPreview = document.getElementById('text-color-preview');
+  const bgPreview = document.getElementById('bg-color-preview');
+  const previewArea = document.getElementById('preview-area');
+  const previewText = document.getElementById('preview-text');
+  const ratioDisplay = document.getElementById('ratio-display');
+  const badge = document.getElementById('contrast-badge');
+
+  function updateContrast() {
+      const textHex = textInput.value;
+      const bgHex = bgInput.value;
+
+      if (isValidHex(textHex) && isValidHex(bgHex)) {
+          textPreview.style.backgroundColor = textHex;
+          bgPreview.style.backgroundColor = bgHex;
+          previewArea.style.backgroundColor = bgHex;
+          previewText.style.color = textHex;
+
+          const ratio = getContrastRatio(textHex, bgHex).toFixed(2);
+          ratioDisplay.textContent = ratio + ':1';
+
+          if (ratio >= 7) {
+              badge.innerHTML = '<span class="material-symbols-outlined text-[16px]">verified</span> Pasa AAA';
+              badge.className = 'px-3 py-1 bg-tertiary-container text-on-tertiary-container rounded-full font-label-sm flex items-center gap-1 transition-colors';
+          } else if (ratio >= 4.5) {
+              badge.innerHTML = '<span class="material-symbols-outlined text-[16px]">verified</span> Pasa AA';
+              badge.className = 'px-3 py-1 bg-tertiary-container text-on-tertiary-container rounded-full font-label-sm flex items-center gap-1 transition-colors';
+          } else if (ratio >= 3) {
+             badge.innerHTML = '<span class="material-symbols-outlined text-[16px]">warning</span> Solo Texto Grande';
+              badge.className = 'px-3 py-1 bg-surface-tint text-on-primary rounded-full font-label-sm flex items-center gap-1 transition-colors';
+          } else {
+              badge.innerHTML = '<span class="material-symbols-outlined text-[16px]">error</span> Falla';
+              badge.className = 'px-3 py-1 bg-error-container text-on-error-container rounded-full font-label-sm flex items-center gap-1 transition-colors';
+          }
+      }
+  }
+
+  textInput.addEventListener('input', updateContrast);
+  bgInput.addEventListener('input', updateContrast);
+
+  // Se conserva por compatibilidad con atributos onclick antiguos del HTML.
+  function markSectionComplete() {}
+
+  // Inicializar el comprobador de contraste
+  updateContrast();
+</script></main></div><script src="assets/app.js" defer></script></body></html>

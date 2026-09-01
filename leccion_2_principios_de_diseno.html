@@ -1,0 +1,412 @@
+﻿<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Lección 2 · Principios de diseño</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;overflow-y:auto;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"tertiary-fixed":"#62fae3","secondary":"#5a5f62","inverse-surface":"#213145","surface-bright":"#f8f9ff","on-surface":"#0b1c30","on-secondary-container":"#5e6367","surface-dim":"#cbdbf5","on-secondary":"#ffffff","tertiary-fixed-dim":"#3cddc7","tertiary-container":"#00433b","inverse-primary":"#bac6ec","inverse-on-surface":"#eaf1ff","error-container":"#ffdad6","on-error-container":"#93000a","primary-fixed":"#dae2ff","on-background":"#0b1c30","on-primary-container":"#98a4c9","surface-container":"#e5eeff","secondary-container":"#dce0e4","surface-variant":"#d3e4fe","on-primary":"#ffffff","surface-container-low":"#eff4ff","secondary-fixed-dim":"#c3c7cb","tertiary":"#002b25","on-tertiary-container":"#00b9a6","outline":"#75777e","on-primary-fixed-variant":"#3a4666","surface-container-high":"#dce9ff","on-tertiary":"#ffffff","secondary-fixed":"#dfe3e7","primary":"#182442","on-secondary-fixed":"#171c1f","background":"#f8f9ff","error":"#ba1a1a","surface-tint":"#525e7f","on-primary-fixed":"#0d1a38","outline-variant":"#c6c6ce","on-error":"#ffffff","primary-fixed-dim":"#bac6ec","on-surface-variant":"#45464e","on-secondary-fixed-variant":"#43474b","surface-container-lowest":"#ffffff","on-tertiary-fixed":"#00201c","on-tertiary-fixed-variant":"#005047","surface":"#f8f9ff","surface-container-highest":"#d3e4fe","primary-container":"#2e3a59"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"20px","container-max":"1280px","stack-md":"16px","margin-desktop":"40px","unit":"8px","gutter":"24px","stack-xl":"64px","stack-lg":"32px","stack-sm":"8px"},"fontFamily":{"headline-sm":["Inter"],"headline-lg":["Inter"],"headline-lg-mobile":["Inter"],"body-lg":["Inter"],"headline-md":["Inter"],"headline-xl":["Inter"],"body-md":["Inter"],"body-sm":["Inter"],"label-md":["Inter"],"label-sm":["Inter"]},"fontSize":{"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"headline-xl":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"14px","fontWeight":"500"}]}}}}</script><link rel="stylesheet" href="assets/app.css"/></head><body class="bg-surface font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-primary z-50 flex flex-col shadow-xl"><div class="p-gutter flex items-center gap-3 mb-stack-md"><a href="index.html" class="da-brand"><span class="da-brand__mark">E</span><span class="da-brand__text"><b>Eli</b>Diseng</span></a></div><div class="px-gutter mb-stack-sm"><span class="font-label-sm text-on-primary-container uppercase tracking-widest opacity-60">Plan de Estudios</span></div><nav class="flex-1 overflow-y-auto px-4 pb-8 flex flex-col gap-1" data-active-classes="bg-primary-container text-on-primary-container"><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all group" data-path="curriculum-overview" href="index.html"><span class="material-symbols-outlined mr-3">school</span>Inicio</a><div class="my-2 border-t border-on-primary/10 mx-4"></div><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="ui-vs-ux" href="leccion_1_ui_vs_ux.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">difference</span>UI y UX</div><div class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></div></a><a aria-current="page" class="flex items-center px-4 py-3 rounded-lg transition-all justify-between bg-primary-container text-on-primary-container" data-path="design-principles" href="leccion_2_principios_de_diseno.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">architecture</span>Principios de diseño</div><div class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="visual-hierarchy" href="leccion_3_jerarquia_visual.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">layers</span>Jerarquía visual</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="color-psychology" href="leccion_4_psicologia_del_color.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">palette</span>Psicología del color</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="typography-systems" href="leccion_6_sistemas_tipograficos.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">match_case</span>Tipografía</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="wireframing" href="leccion_9_wireframing.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">draw</span>Wireframing</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a><a class="flex items-center px-4 py-3 rounded-lg text-on-primary/70 hover:bg-primary-container/30 hover:text-on-primary transition-all justify-between" data-path="accessibility" href="leccion_12_accesibilidad.html"><div class="flex items-center"><span class="material-symbols-outlined mr-3">accessibility_new</span>Accesibilidad</div><div class="w-1.5 h-1.5 rounded-full bg-outline"></div></a></nav></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(46,58,89,0.08)] z-40 flex items-center justify-between px-gutter"><div class="flex-1 max-w-xl"><div class="relative flex items-center bg-surface-container-low rounded-full px-4 py-1.5 border border-outline-variant/30 focus-within:border-primary-container transition-all"><span class="material-symbols-outlined text-on-surface-variant mr-2">search</span><input class="bg-transparent border-none outline-none text-body-sm w-full text-on-surface placeholder:text-on-surface-variant/60" placeholder="Buscar lecciones, recursos, herramientas..." type="text"/></div></div></header><main class="relative pt-16 min-h-screen bg-surface-bright"><div class="flex flex-col w-full max-w-7xl mx-auto px-gutter pb-stack-xl">
+<header class="da-banner">
+<div class="da-banner__fx">
+<span class="da-banner__orb da-banner__orb--a"></span>
+<span class="da-banner__orb da-banner__orb--b"></span>
+<svg class="da-banner__grid" fill="none" stroke="currentColor" stroke-width="0.4" viewbox="0 0 100 100">
+<polygon points="50,3 91,26 91,74 50,97 9,74 9,26"></polygon>
+<polygon points="50,20 76,35 76,65 50,80 24,65 24,35"></polygon>
+<circle cx="50" cy="50" r="46"></circle>
+</svg>
+<span class="da-banner__sheen"></span>
+</div>
+<div class="da-banner__content">
+<span class="da-banner__badge"><span class="material-symbols-outlined">architecture</span>Lección 2</span>
+<h1>Los 5 principios que ordenan cualquier pantalla</h1>
+<p class="da-banner__intro">Jerarquía, contraste, alineación, proximidad y espacio en blanco. Son cinco reglas sencillas que hacen que una interfaz se entienda de un vistazo. No hace falta talento artístico: se aprenden y se aplican.</p>
+<div class="da-banner__meta">
+<span><span class="material-symbols-outlined">schedule</span>~8 min de lectura</span>
+<span><span class="material-symbols-outlined">school</span>Nivel introductorio</span>
+<span><span class="material-symbols-outlined">arrow_forward</span>Después: Jerarquía visual</span>
+</div>
+</div>
+<div class="da-banner__aside">
+<svg viewbox="0 0 100 100">
+<rect class="da-spin-a" x="26" y="26" width="48" height="48" rx="6" fill="none" stroke="#62fae3" stroke-width="1.5"></rect>
+<rect class="da-spin-b" x="34" y="34" width="32" height="32" rx="4" fill="none" stroke="#bac6ec" stroke-width="1.2" stroke-dasharray="3 2"></rect>
+<circle class="da-anim-pulse" cx="50" cy="50" r="6" fill="#62fae3"></circle>
+</svg>
+</div>
+</header>
+<!-- Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 relative">
+<!-- Sidebar Navigation (Sticky) -->
+<div class="hidden lg:block lg:col-span-3">
+<div class="sticky top-24 bg-surface-container-lowest rounded-xl p-6 shadow-sm">
+<h3 class="text-label-md font-label-md text-on-surface-variant uppercase tracking-wider mb-4">En esta lección</h3>
+<nav class="space-y-1">
+<a class="block px-3 py-2 rounded-md text-body-sm font-body-sm text-primary bg-primary-container/10 font-medium transition-colors" href="#visual-hierarchy">1. Jerarquía Visual</a>
+<a class="block px-3 py-2 rounded-md text-body-sm font-body-sm text-on-surface-variant hover:bg-surface-container transition-colors" href="#contrast">2. Contraste</a>
+<a class="block px-3 py-2 rounded-md text-body-sm font-body-sm text-on-surface-variant hover:bg-surface-container transition-colors" href="#alignment">3. Alineación</a>
+<a class="block px-3 py-2 rounded-md text-body-sm font-body-sm text-on-surface-variant hover:bg-surface-container transition-colors" href="#proximity">4. Proximidad</a>
+<a class="block px-3 py-2 rounded-md text-body-sm font-body-sm text-on-surface-variant hover:bg-surface-container transition-colors" href="#whitespace">5. Espacio en Blanco</a>
+<div class="h-px bg-outline-variant/30 my-3"></div>
+<a class="block px-3 py-2 rounded-md text-body-sm font-body-sm text-tertiary font-medium hover:bg-tertiary-container/10 transition-colors flex items-center justify-between" href="#interactive-analysis">
+                        Ejemplo interactivo
+                        <span class="material-symbols-outlined text-[16px]">touch_app</span>
+</a>
+</nav>
+</div>
+</div>
+<!-- Main Content Area -->
+<div class="lg:col-span-9 space-y-stack-xl">
+<!-- 1. Visual Hierarchy -->
+<section class="scroll-mt-24" id="visual-hierarchy">
+<div class="flex items-baseline gap-4 mb-6">
+<span class="text-headline-lg font-headline-lg text-primary-fixed-dim">01</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Jerarquía Visual</h2>
+</div>
+<div class="prose max-w-none text-body-md font-body-md text-on-surface-variant space-y-6">
+<p class="text-body-lg font-body-lg text-on-surface leading-relaxed">
+                        La jerarquía visual es el orden en que tu ojo recorre una pantalla: qué mira primero, qué después. Se controla haciendo unos elementos más grandes, más oscuros o dándoles más aire alrededor. En código lo consigues con <code>font-size</code>, <code>font-weight</code>, <code>color</code> y <code>margin</code>.
+                    </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm">
+<h4 class="text-label-md font-label-md text-on-surface mb-4 uppercase tracking-wide">Jerarquía Plana (Pobre)</h4>
+<div class="space-y-4 opacity-70 grayscale">
+<div class="h-8 bg-surface-variant rounded"></div>
+<div class="h-8 bg-surface-variant rounded"></div>
+<div class="h-8 bg-surface-variant rounded"></div>
+</div>
+<p class="text-body-sm font-body-sm mt-4 text-on-surface-variant">Todo compite por atención. Nada destaca.</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-md ring-1 ring-tertiary-fixed/30 relative">
+<div class="absolute -top-3 -right-3 bg-tertiary-fixed text-on-tertiary-fixed rounded-full w-8 h-8 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<h4 class="text-label-md font-label-md text-on-surface mb-4 uppercase tracking-wide">Jerarquía Clara (Buena)</h4>
+<div class="space-y-4">
+<div class="h-12 bg-primary rounded w-3/4 shadow-sm"></div>
+<div class="h-6 bg-surface-variant rounded w-full"></div>
+<div class="h-6 bg-surface-variant rounded w-5/6"></div>
+<div class="h-10 bg-tertiary-fixed rounded w-1/3 mt-2"></div>
+</div>
+<p class="text-body-sm font-body-sm mt-4 text-on-surface-variant">El tamaño, color y ubicación crean una ruta de lectura clara.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Contrast -->
+<section class="scroll-mt-24" id="contrast">
+<div class="flex items-baseline gap-4 mb-6">
+<span class="text-headline-lg font-headline-lg text-primary-fixed-dim">02</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Contraste</h2>
+</div>
+<div class="bg-primary text-on-primary rounded-2xl p-8 shadow-lg overflow-hidden relative">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-fixed rounded-full mix-blend-overlay blur-3xl opacity-20 -translate-y-1/2 translate-x-1/4"></div>
+<p class="text-body-lg font-body-lg mb-8 relative z-10 max-w-2xl">
+                        Contraste es que dos cosas se vean claramente distintas. No es solo claro contra oscuro: también grande contra pequeño, negrita contra fina. Lo que más contrasta llama la atención; lo que contrasta poco pasa a segundo plano. Es la herramienta principal para destacar el botón importante de una pantalla.
+                    </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 relative z-10">
+<div class="bg-surface/10 backdrop-blur-sm p-4 rounded-lg flex flex-col items-center justify-center text-center">
+<span class="text-[48px] font-black leading-none mb-2">A</span>
+<span class="text-[14px] font-light">Contraste de Tamaño</span>
+</div>
+<div class="bg-surface/10 backdrop-blur-sm p-4 rounded-lg flex flex-col items-center justify-center text-center">
+<div class="w-full h-12 bg-on-primary rounded mb-2 flex items-center justify-center">
+<span class="text-primary font-bold">Contraste</span>
+</div>
+<span class="text-[14px] font-light">Contraste de Color</span>
+</div>
+<div class="bg-surface/10 backdrop-blur-sm p-4 rounded-lg flex flex-col items-center justify-center text-center">
+<span class="font-black text-2xl mb-1">Negrita</span>
+<span class="font-light text-sm mb-2">Delgado</span>
+<span class="text-[14px] font-light">Contraste de Peso</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3 & 4. Alignment & Proximity (Visual Diagrams) -->
+<section class="scroll-mt-24" id="alignment">
+<div class="flex items-baseline gap-4 mb-6">
+<span class="text-headline-lg font-headline-lg text-primary-fixed-dim">03 &amp; 04</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Alineación y Proximidad</h2>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant mb-8 max-w-3xl">
+<strong>Alineación:</strong> los elementos comparten una línea invisible (por ejemplo, todos empiezan a la misma altura por la izquierda). Da sensación de orden.
+                    <strong>Proximidad:</strong> lo que va junto se coloca cerca, y lo que no, se separa con espacio. Así el ojo agrupa la información sola. En código, ambos se logran con <code>flex</code> / <code>grid</code>, <code>gap</code> y <code>margin</code>.
+                </p>
+<!-- Interactive Diagram Area -->
+<div class="bg-surface-container-low p-2 rounded-2xl">
+<!-- Tabs -->
+<div class="flex gap-2 p-2 bg-surface-container rounded-t-xl overflow-x-auto">
+<button class="px-4 py-2 bg-surface-container-lowest text-primary rounded-lg text-label-md font-label-md shadow-sm transition-all" onclick="showDiagram('alignment')">Alineación</button>
+<button class="px-4 py-2 text-on-surface-variant hover:bg-surface-container-lowest/50 rounded-lg text-label-md font-label-md transition-all" onclick="showDiagram('proximity')">Proximidad</button>
+</div>
+<div class="p-8 bg-surface-container-lowest rounded-b-xl shadow-sm min-h-[400px]" id="diagram-container">
+<!-- Alignment View -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 transition-opacity duration-300" id="view-alignment">
+<!-- Bad Alignment -->
+<div>
+<h4 class="text-label-md font-label-md text-error mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">close</span> Mala Alineación
+                                </h4>
+<div class="relative h-[250px] bg-surface-container-low rounded-lg p-6">
+<div class="absolute left-[20%] w-32 h-12 bg-secondary-container rounded shadow-sm"></div>
+<div class="absolute left-[15%] top-[80px] w-48 h-4 bg-outline-variant/50 rounded"></div>
+<div class="absolute left-[25%] top-[110px] w-40 h-4 bg-outline-variant/50 rounded"></div>
+<div class="absolute left-[10%] top-[160px] w-24 h-10 bg-primary/40 rounded"></div>
+</div>
+</div>
+<!-- Good Alignment -->
+<div>
+<h4 class="text-label-md font-label-md text-tertiary-fixed-dim mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">check</span> Fuerte Alineación
+                                </h4>
+<div class="relative h-[250px] bg-surface-container-low rounded-lg p-6 overflow-hidden group">
+<!-- Alignment Guide Line (appears on hover or active) -->
+<div class="absolute left-6 top-0 bottom-0 w-px bg-tertiary-fixed border-l border-dashed border-tertiary-fixed/50 z-0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative z-10 w-32 h-12 bg-primary rounded shadow-sm mb-4"></div>
+<div class="relative z-10 w-48 h-4 bg-on-surface/40 rounded mb-3"></div>
+<div class="relative z-10 w-40 h-4 bg-on-surface/40 rounded mb-6"></div>
+<div class="relative z-10 w-24 h-10 bg-tertiary-fixed rounded shadow-sm text-center flex items-center justify-center">
+<div class="w-12 h-2 bg-on-tertiary-fixed/50 rounded"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Proximity View (Hidden by default) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 hidden transition-opacity duration-300" id="view-proximity">
+<!-- Bad Proximity -->
+<div>
+<h4 class="text-label-md font-label-md text-error mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">close</span> Mala Proximidad
+                                </h4>
+<div class="relative h-[250px] bg-surface-container-low rounded-lg p-6 flex flex-col justify-between">
+<div class="w-16 h-16 bg-secondary-container rounded-full mx-auto"></div>
+<div class="w-32 h-4 bg-outline-variant/50 rounded mx-auto mt-2"></div>
+<div class="w-16 h-16 bg-secondary-container rounded-full mx-auto mt-4"></div>
+<div class="w-32 h-4 bg-outline-variant/50 rounded mx-auto mt-8"></div> <!-- Disconnected -->
+</div>
+</div>
+<!-- Good Proximity -->
+<div>
+<h4 class="text-label-md font-label-md text-tertiary-fixed-dim mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">check</span> Fuerte Proximidad
+                                </h4>
+<div class="relative h-[250px] bg-surface-container-low rounded-lg p-6 flex flex-col gap-8">
+<!-- Group 1 -->
+<div class="flex items-center gap-4 bg-surface-container-lowest p-3 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-primary/20 rounded-full flex-shrink-0"></div>
+<div class="flex flex-col gap-2 w-full">
+<div class="w-24 h-3 bg-on-surface/60 rounded"></div>
+<div class="w-32 h-2 bg-on-surface/30 rounded"></div>
+</div>
+</div>
+<!-- Group 2 -->
+<div class="flex items-center gap-4 bg-surface-container-lowest p-3 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-primary/20 rounded-full flex-shrink-0"></div>
+<div class="flex flex-col gap-2 w-full">
+<div class="w-24 h-3 bg-on-surface/60 rounded"></div>
+<div class="w-32 h-2 bg-on-surface/30 rounded"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Whitespace -->
+<section class="scroll-mt-24" id="whitespace">
+<div class="flex items-baseline gap-4 mb-6">
+<span class="text-headline-lg font-headline-lg text-primary-fixed-dim">05</span>
+<h2 class="text-headline-md font-headline-md text-on-surface">Espacio en Blanco (Espacio Negativo)</h2>
+</div>
+<div class="flex flex-col md:flex-row gap-8 items-center bg-inverse-surface rounded-2xl p-8 shadow-xl text-inverse-on-surface">
+<div class="flex-1 space-y-4">
+<p class="text-body-lg font-body-lg">
+                            El espacio en blanco es el hueco vacío entre elementos. No es espacio «desperdiciado»: es lo que deja respirar al contenido y ayuda a separar unas zonas de otras. Cuando una pantalla agobia, casi siempre le falta espacio, no le sobran cosas.
+                        </p>
+<ul class="space-y-3 mt-4 text-body-md font-body-md opacity-90">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px] mt-0.5">adjust</span>
+<span><strong>Macro-espacio:</strong> Espacio entre elementos principales de diseño (márgenes, secciones).</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px] mt-0.5">compress</span>
+<span><strong>Micro-espacio:</strong> Espacio entre elementos más pequeños (altura de línea, relleno dentro de botones).</span>
+</li>
+</ul>
+</div>
+<div class="w-full md:w-1/2 aspect-[4/3] bg-surface rounded-xl p-8 relative flex items-center justify-center group overflow-hidden">
+<!-- Demonstrating whitespace -->
+<div class="text-center transition-transform duration-500 group-hover:scale-110">
+<div class="inline-block px-8 py-4 border-2 border-primary text-primary font-headline-sm text-headline-sm rounded-sm bg-surface-container-lowest">
+                                Respirar
+                            </div>
+</div>
+<!-- Overlay labels indicating space on hover -->
+<div class="absolute inset-x-0 top-0 h-8 bg-tertiary-fixed/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-[10px] uppercase font-bold text-tertiary-fixed tracking-widest">Macro Espacio</span>
+</div>
+<div class="absolute inset-y-0 left-0 w-8 bg-tertiary-fixed/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-[10px] uppercase font-bold text-tertiary-fixed tracking-widest [writing-mode:vertical-rl] rotate-180">Relleno</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Ejemplo interactivo -->
+<section class="mt-stack-xl pt-stack-lg relative scroll-mt-24" id="interactive-analysis">
+<!-- Top divider -->
+<div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-outline-variant/40 to-transparent"></div>
+<div class="text-center mb-10">
+<span class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-tertiary-container text-on-tertiary-container mb-4 shadow-md">
+<span class="material-symbols-outlined">touch_app</span>
+</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface">Vamos a verlo en una pantalla real</h2>
+<p class="text-body-md font-body-md text-on-surface-variant max-w-xl mx-auto mt-2">
+                        Este es el esquema de una pantalla. Toca cada zona marcada y verás qué principio de diseño está actuando ahí.
+                    </p>
+</div>
+<div class="bg-surface-container-lowest rounded-2xl shadow-xl overflow-hidden border border-outline-variant/20">
+<div class="bg-surface-container px-4 py-3 flex items-center gap-2 border-b border-outline-variant/20">
+<div class="w-3 h-3 rounded-full bg-error/80"></div>
+<div class="w-3 h-3 rounded-full bg-surface-tint/40"></div>
+<div class="w-3 h-3 rounded-full bg-tertiary-fixed-dim/80"></div>
+<span class="ml-4 text-label-sm font-label-sm text-on-surface-variant opacity-70 font-mono">analysis-exercise.fig</span>
+</div>
+<div class="relative p-8 md:p-12 bg-surface-dim min-h-[500px] flex items-center justify-center">
+<!-- Mock Wireframe -->
+<div class="w-full max-w-md bg-surface-container-lowest rounded-lg shadow-md p-6 relative">
+<!-- Header / Logo Area -->
+<div class="flex justify-between items-center mb-8">
+<div class="w-24 h-6 bg-primary/20 rounded"></div>
+<div class="w-8 h-8 rounded-full bg-surface-variant"></div>
+</div>
+<!-- Hero Content - Target 1: Hierarchy -->
+<div class="mb-10 relative group cursor-pointer" onclick="showQuizFeedback('hierarchy')">
+<div class="absolute -inset-2 bg-tertiary-fixed/0 group-hover:bg-tertiary-fixed/10 border-2 border-transparent group-hover:border-tertiary-fixed rounded-lg transition-all z-0"></div>
+<div class="relative z-10">
+<div class="w-3/4 h-10 bg-primary rounded mb-3"></div>
+<div class="w-full h-4 bg-outline-variant/40 rounded mb-2"></div>
+<div class="w-5/6 h-4 bg-outline-variant/40 rounded"></div>
+</div>
+<!-- Pulse indicator -->
+<span class="absolute -top-3 -right-3 flex h-6 w-6 z-20">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed opacity-75"></span>
+<span class="relative inline-flex rounded-full h-6 w-6 bg-tertiary items-center justify-center text-on-tertiary font-bold text-[10px]">1</span>
+</span>
+</div>
+<!-- List Items - Target 2: Proximity/Alignment -->
+<div class="space-y-6 relative group cursor-pointer" onclick="showQuizFeedback('proximity')">
+<div class="absolute -inset-4 bg-primary-fixed/0 group-hover:bg-primary-fixed/30 border-2 border-transparent group-hover:border-primary rounded-lg transition-all z-0"></div>
+<div class="relative z-10 flex gap-4">
+<div class="w-12 h-12 bg-secondary-container rounded-md flex-shrink-0"></div>
+<div class="flex flex-col justify-center gap-2 w-full">
+<div class="w-1/2 h-4 bg-on-surface/40 rounded"></div>
+<div class="w-3/4 h-3 bg-on-surface/20 rounded"></div>
+</div>
+</div>
+<div class="relative z-10 flex gap-4">
+<div class="w-12 h-12 bg-secondary-container rounded-md flex-shrink-0"></div>
+<div class="flex flex-col justify-center gap-2 w-full">
+<div class="w-1/2 h-4 bg-on-surface/40 rounded"></div>
+<div class="w-3/4 h-3 bg-on-surface/20 rounded"></div>
+</div>
+</div>
+<!-- Pulse indicator -->
+<span class="absolute top-1/2 -right-6 -translate-y-1/2 flex h-6 w-6 z-20">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-6 w-6 bg-primary items-center justify-center text-on-primary font-bold text-[10px]">2</span>
+</span>
+</div>
+<!-- Button Area - Target 3: Contrast -->
+<div class="mt-10 pt-6 border-t border-outline-variant/30 relative group cursor-pointer flex justify-end" onclick="showQuizFeedback('contrast')">
+<div class="absolute -inset-2 bg-error-container/0 group-hover:bg-error-container/40 border-2 border-transparent group-hover:border-error rounded-lg transition-all z-0"></div>
+<div class="w-32 h-10 bg-outline-variant/30 rounded-full relative z-10 flex items-center justify-center">
+<div class="w-16 h-2 bg-surface-container rounded"></div>
+</div>
+<!-- Pulse indicator -->
+<span class="absolute -top-3 left-1/2 flex h-6 w-6 z-20">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-error opacity-75"></span>
+<span class="relative inline-flex rounded-full h-6 w-6 bg-error items-center justify-center text-on-error font-bold text-[10px]">3</span>
+</span>
+</div>
+</div>
+<!-- Feedback Panel (Hidden initially) -->
+<div class="absolute bottom-6 left-6 right-6 md:left-1/2 md:-translate-x-1/2 md:w-full md:max-w-md bg-surface-container-lowest p-6 rounded-xl shadow-xl border border-outline-variant/20 translate-y-4 opacity-0 pointer-events-none transition-all duration-300 z-50" id="quiz-feedback">
+<div class="flex justify-between items-start mb-2">
+<h4 class="text-headline-sm font-headline-sm text-primary" id="feedback-title">Principio</h4>
+<button class="text-on-surface-variant hover:text-on-surface" onclick="closeQuizFeedback()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant" id="feedback-desc"></p>
+</div>
+</div>
+</div>
+</section>
+<!-- Module Completion Footer -->
+<div class="mt-stack-xl flex justify-between items-center py-6 border-t border-outline-variant/30">
+<a href="leccion_1_ui_vs_ux.html" class="flex items-center gap-2 px-4 py-2 text-on-surface-variant hover:text-primary transition-colors text-label-md font-label-md inline-flex">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+                    Anterior: UI vs UX
+                </a>
+<a href="leccion_3_jerarquia_visual.html" class="flex items-center gap-3 px-6 py-3 bg-tertiary-fixed text-on-tertiary-fixed rounded-lg font-label-md shadow-[0_2px_4px_rgba(46,58,89,0.05)] hover:shadow-md hover:-translate-y-0.5 transition-all inline-flex">
+                    Siguiente: Jerarquía Visual
+                    <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<script>
+    // Tab functionality for diagrams
+    function showDiagram(type) {
+        const alignView = document.getElementById('view-alignment');
+        const proxView = document.getElementById('view-proximity');
+        const buttons = document.getElementById('diagram-container').previousElementSibling.querySelectorAll('button');
+        
+        if(type === 'alignment') {
+            alignView.classList.remove('hidden');
+            proxView.classList.add('hidden');
+            buttons[0].className = 'px-4 py-2 bg-surface-container-lowest text-primary rounded-lg text-label-md font-label-md shadow-sm transition-all';
+            buttons[1].className = 'px-4 py-2 text-on-surface-variant hover:bg-surface-container-lowest/50 rounded-lg text-label-md font-label-md transition-all';
+        } else {
+            alignView.classList.add('hidden');
+            proxView.classList.remove('hidden');
+            buttons[1].className = 'px-4 py-2 bg-surface-container-lowest text-primary rounded-lg text-label-md font-label-md shadow-sm transition-all';
+            buttons[0].className = 'px-4 py-2 text-on-surface-variant hover:bg-surface-container-lowest/50 rounded-lg text-label-md font-label-md transition-all';
+        }
+    }
+
+    // Quiz interaction
+    const feedbackData = {
+        'hierarchy': {
+            title: 'Jerarquía Visual',
+            desc: 'El bloque oscuro grande seguido de líneas más pequeñas y claras marca el orden de lectura. El ojo va primero al elemento más grande y con más peso. Eso es jerarquía visual.',
+            color: 'text-tertiary-fixed-dim'
+        },
+        'proximity': {
+            title: 'Proximidad y Alineación',
+            desc: 'El icono y las líneas de texto están muy juntos (proximidad), así que el ojo los lee como un solo bloque. Además todos empiezan a la misma altura por la izquierda (alineación).',
+            color: 'text-primary'
+        },
+        'contrast': {
+            title: 'Contraste (aquí falla)',
+            desc: 'Este botón tiene muy poco contraste: gris claro sobre gris un poco más claro. Cuesta encontrarlo, y para algunas personas es directamente invisible. El botón principal siempre debe destacar.',
+            color: 'text-error'
+        }
+    };
+
+    function showQuizFeedback(type) {
+        const panel = document.getElementById('quiz-feedback');
+        const title = document.getElementById('feedback-title');
+        const desc = document.getElementById('feedback-desc');
+        
+        const data = feedbackData[type];
+        
+        title.textContent = data.title;
+        title.className = `text-headline-sm font-headline-sm ${data.color}`;
+        desc.textContent = data.desc;
+        
+        panel.classList.remove('translate-y-4', 'opacity-0', 'pointer-events-none');
+    }
+
+    function closeQuizFeedback() {
+        const panel = document.getElementById('quiz-feedback');
+        panel.classList.add('translate-y-4', 'opacity-0', 'pointer-events-none');
+    }
+</script></main></div><script src="assets/app.js" defer></script></body></html>
