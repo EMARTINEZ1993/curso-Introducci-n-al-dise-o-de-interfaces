@@ -73,9 +73,9 @@
     'design-principles':   { n: 2,  title: 'Principios de Diseño', desc: 'Jerarquía visual, contraste, alineación, proximidad y espacio en blanco.', min: 45 },
     'visual-hierarchy':    { n: 3,  title: 'Jerarquía Visual', desc: 'Escala, contraste y patrones de lectura para coreografiar la mirada del usuario.', min: 45 },
     'color-psychology':    { n: 4,  title: 'Psicología del Color', desc: 'Cómo los colores evocan emociones, guían la atención y construyen confianza.', min: 40 },
-    'typography-systems':  { n: 6,  title: 'Sistemas Tipográficos', desc: 'Familias, escala y jerarquía del texto; legibilidad.', min: 45 },
-    'wireframing':         { n: 9,  title: 'Wireframing', desc: 'El plano estructural de una pantalla antes de decorarla.', min: 40 },
-    'accessibility':       { n: 12, title: 'Accesibilidad', desc: 'Principios WCAG (POUR), contraste de color y soporte de lectores de pantalla.', min: 45 }
+    'typography-systems':  { n: 5,  title: 'Sistemas Tipográficos', desc: 'Familias, escala y jerarquía del texto; legibilidad.', min: 45 },
+    'wireframing':         { n: 6,  title: 'Wireframing', desc: 'El plano estructural de una pantalla antes de decorarla.', min: 40 },
+    'accessibility':       { n: 7,  title: 'Accesibilidad', desc: 'Principios WCAG (POUR), contraste de color y soporte de lectores de pantalla.', min: 45 }
   };
 
   function firstPending() {
